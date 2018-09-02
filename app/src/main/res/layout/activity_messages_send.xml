@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MessagesSend">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="25dp"
+        android:id="@+id/ll1"
+        android:orientation="vertical"
+        android:background="#123"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details of person "
+            android:layout_marginTop="30dp"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#dee5ec"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvname"
+            android:textSize="30sp"
+            android:textColor="#deec63"
+            android:fontFamily="monospace"
+            android:text="Name:"/>
+
+
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvcontactno"
+            android:textColor="#deec63"
+            android:hint="Contact No:"
+            android:fontFamily="monospace"
+            android:textSize="30sp"
+            android:text="Contact No"/>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/call"
+            android:onClick="call"
+            android:text="Call"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:background="@drawable/shape"
+            android:fontFamily="monospace"
+            />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Chat"
+            android:textAllCaps="false"
+            android:text="Chat"
+            android:onClick="chat"
+            android:textSize="30sp"
+            android:background="@drawable/shape"
+            android:fontFamily="monospace"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

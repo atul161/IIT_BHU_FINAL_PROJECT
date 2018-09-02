@@ -1,0 +1,15 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/splash"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#08615e"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+ <pl.droidsonroids.gif.GifImageView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:src="@drawable/rocket2"
+     android:id="@+id/splashgif"/>
+
+</LinearLayout>

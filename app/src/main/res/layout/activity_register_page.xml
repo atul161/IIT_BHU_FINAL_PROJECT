@@ -1,0 +1,120 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="476dp"
+                android:background="#dadee1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp">
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:hint="Name"
+                        android:inputType="text"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                         />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp">
+
+                    <EditText
+                        android:id="@+id/age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:hint="Age"
+                        android:inputType="number"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                         />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp">
+
+                    <EditText
+                        android:id="@+id/contactno"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:hint="Contact No/LOGIN ID"
+                        android:inputType="number"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                         />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp">
+
+                    <EditText
+                        android:id="@+id/renterPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15sp"
+                        android:ems="10"
+                        android:fontFamily="serif-monospace"
+                        android:hint="Renter password"
+                        android:inputType="textPassword"
+                        android:textSize="25sp"
+                        android:textStyle="bold"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15sp"
+                    android:background="@drawable/shape"
+                    android:fontFamily="serif-monospace"
+                    android:hint="Register"
+                    android:onClick="register"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+
+
+
+

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">loginpage4</string>
+    <string name="title_activity_after_login">AfterLogin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="headerEffectedArea">The List of Effected State In INDIA</string>
+
+
+    <string name="floodcontent">Heavy rains across the state\n of Maharashtra, including large\n areas of the metropolis \nMumbai which received 944 mm \n(39.1 inches) alone on \n26 July 2005 killed at-least \n1,094 people. The day is still re\nmembered as the day Mumbai \ncame to a standst\nill, as the city\n faced worst ever ra\nin. Mumbai International Air\nport remained closed for 30 h\nours, Mumbai-Pune Expressway\n was closed for 24 hour\ns with public propert\ny loss was estimated at\n ₹550 crore (U\nS$80 million).
+June 201\n3 North Indian fl\noods: Heavy rain due t\no cloudburst caused severe floods and \nlandslides on the North\n Indian states, mainly Utt\narakhand and nearby s\ntates. More than 5\n,700 people were presum\ned din in July 2017, Gujarat state o\nf India was aff\nected by the severe f\nlood resulting in more t\nhan 200 deaths.[12]</string>
+</resources>

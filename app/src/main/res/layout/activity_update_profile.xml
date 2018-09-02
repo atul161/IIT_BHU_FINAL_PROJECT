@@ -1,0 +1,74 @@
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/updateprofile"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+
+    android:layout_marginTop="30dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/thought"
+    android:textSize="25sp"
+    android:padding="5dp"
+    android:fontFamily="monospace"
+    android:textColor="#141415"
+    android:hint="!!Update your  \nProfile For \nDONATE/RECEIVE"
+    />
+
+<ImageView
+android:id="@+id/profilepicture"
+android:layout_width="200dp"
+android:layout_height="200dp"
+    android:layout_marginTop="25dp"
+    android:onClick="uploadImage"
+android:src="@drawable/profile"
+    />
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/profilehint"
+android:hint="(upload profile picture)"
+android:textSize="25sp"
+android:fontFamily="serif-monospace"
+android:textColor="#ebeef2"
+    />
+
+<ImageView
+android:layout_marginTop="30dp"
+android:id="@+id/uploadAadharCard"
+    android:onClick="uploadImage"
+    android:visibility="gone"
+android:layout_width="200dp"
+android:layout_height="200dp"
+android:src="@drawable/aadhar"
+    />
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/aadharhint"
+    android:visibility="gone"
+android:hint="(upload Aadhar picture)"
+android:textSize="25sp"
+android:fontFamily="serif-monospace"
+android:textColor="#f5f8fa"
+    />
+
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/save"
+android:background="@drawable/shape"
+android:text="Save"
+    android:onClick="save"
+    android:textColor="#ebf0f5"
+android:textSize="30sp"
+android:layout_marginTop="20dp"
+    />
+
+</LinearLayout>
+</ScrollView>

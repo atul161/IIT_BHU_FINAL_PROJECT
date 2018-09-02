@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#123"
+    tools:context=".CurrentListFlood">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginStart="72dp"
+        android:fontFamily="serif-monospace"
+        android:text="Select State To
+         Donate "
+        android:textColor="#edac9b"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/listview_flood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginLeft="179dp"
+        android:layout_marginRight="178dp"
+        android:layout_marginStart="179dp"
+        android:fontFamily="cursive"
+        android:text="......"
+        android:textColor="#89f760"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listview_flood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="#f4f5f7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date"></ListView>
+
+
+</android.support.constraint.ConstraintLayout>

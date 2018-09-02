@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll"
+        android:background="#123"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/earthquake2"
+            />
+
+
+        <TextView
+            android:id="@+id/fc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:text="!!Donate Money\n Save Life"
+            android:textSize="40sp"
+            android:textColor="#f4f6f7"
+            android:textStyle="bold"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/earthquakeffectedAreas"
+            android:textColor="#e6e9ec"
+            android:textSize="30sp"
+            android:padding="5dp"
+            android:text="Current List\nof EarthQuake \nEffected\nstate"
+            android:textAllCaps="false"
+            android:background="@drawable/shape"/>
+    </LinearLayout>
+
+</ScrollView>

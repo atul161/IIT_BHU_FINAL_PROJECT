@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_flood"
+            android:icon="@drawable/flood"
+            android:title="Flood" />
+        <item
+            android:id="@+id/nav_earthquakes"
+            android:icon="@drawable/earthquake"
+            android:title="Earthquakes" />
+        <item
+            android:id="@+id/nav_drought"
+            android:icon="@drawable/drought"
+            android:title="Drought" />
+        <item
+            android:id="@+id/nav_tornadoes"
+            android:icon="@drawable/tornado"
+            android:title="Tornadoes" />
+
+        <item
+            android:id="@+id/nav_donatesociety"
+            android:icon="@drawable/donation"
+            android:title="Donate Society" />
+
+        <item
+            android:id="@+id/nav_pullrequest"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Need Money?
+pull request" />
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Received Messages!!" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_effectedarea"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Effected Area" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="logout" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintmain"
+    tools:context=".LoginActivity"
+    android:background="#123">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl1"
+        android:layout_width="408dp"
+        android:layout_height="775dp"
+        android:background="#f8fafc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-4dp">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="wrap_content"
+            android:layout_height="325dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginStart="43dp"
+            android:background="#c4c5c6"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/b2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/padlock"
+                    android:ems="10"
+                    android:hint="login"
+                    android:inputType="text"
+                    android:textColor="#123"
+                    android:textSize="25sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/key"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="#123"
+                    android:textSize="25sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/shape"
+                android:fontFamily="serif-monospace"
+                android:onClick="submit"
+                android:text="SignIn"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/b2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginLeft="214dp"
+            android:layout_marginRight="136dp"
+            android:layout_marginStart="214dp"
+            android:fontFamily="serif-monospace"
+            android:onClick="submit"
+            android:text="forgot password?"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.448"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll1" />
+
+        <Button
+            android:id="@+id/b3"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="83dp"
+            android:layout_height="53dp"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="32dp"
+            android:layout_marginEnd="305dp"
+            android:layout_marginLeft="163dp"
+            android:layout_marginRight="305dp"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="serif-monospace"
+            android:onClick="signup"
+            android:text="SIGNUP here"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.468"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ll1"
+            app:layout_constraintVertical_bias="0.196" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

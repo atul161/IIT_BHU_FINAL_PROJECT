@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll"
+        android:background="#e7eff7"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/helping1"
+            android:layout_margin="15dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spin"></Spinner>
+
+     <android.support.design.widget.TextInputLayout
+         android:layout_width="wrap_content"
+         android:layout_margin="5dp"
+         android:layout_height="wrap_content">
+       <EditText
+           android:fontFamily="serif-monospace"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/currentlocation"
+           android:textSize="20sp"
+           android:textStyle="bold"
+           android:inputType="text"
+           android:ems="15"
+           android:hint="Current location"/>
+     </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:id="@+id/permanentstate"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:inputType="text"
+            android:ems="15"
+            android:hint="Permanent STATE IN CAPITAL"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:id="@+id/aadharcardno"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:ems="15"
+            android:inputType="number"
+            android:maxLength="12"
+            android:hint="12 Digit AadharCard No"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="wrap_content"
+            android:fontFamily="serif-monospace"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:id="@+id/pancardno"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:hint="PanCard No"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/pullrequest"
+            android:textColor="#0f76de"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:text="Pull Request"
+            android:textAllCaps="false"
+            android:background="@drawable/shape1"/>
+    </LinearLayout>
+
+</ScrollView>
