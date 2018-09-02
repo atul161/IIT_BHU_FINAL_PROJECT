@@ -1,20 +1,36 @@
-# IIT_BHU_FINAL_PROJECT(LITTLE INCOMPLETE BIG POJECT LESS TIME  HOURS)
+# IIT_BHU_FINAL_PROJECT(LITTLE INCOMPLETE BIG POJECT LESS TIME 48 HOURS)
+
+#FOR MORE UNDERSTANDING INSTALL IN TWO MOBILES.
+
                            
                            
                            DESCRIPTION
                            
-Natural disaster is one thing which is beyond the control of human beings,
-but basically we are responsible for all these calamitites. Because we are harming our
-nature continously without thinking about its possssible outcomes. Pollution, Population 
-and Global warming are increasing day by day. Now-a-days our country is facing many natural
-disaster. Natural disaster affects the livelihood very badly, it takes a lot of time
-to people to recover from it. There is also need to aware people about the safety measures
-to be taken during any natural disaster. It also affects the economy of the country. 
-Recently Kerala had suffered a lot due to flood. Many campaigns were organised by government 
-and private institutions to donate for Kearla. We are donating to government
-and NGOs which took a lot of time to send relief material to needy ones. So I have decided
-to make an app through which  needy ones can directly contact with donater. It is 
-basically to be used by affected people after the calamity is gone.
+Natural disaster is one thing which is beyond the 
+control of human beings,
+but basically we are responsible for all these
+calamitites. Because we are harming our
+nature continously without thinking about its possssible
+outcomes. Pollution, Population 
+and Global warming are increasing day by day.
+Now-a-days our country is facing many natural
+disaster. Natural disaster affects the livelihood 
+very badly, it takes a lot of time
+to people to recover from it. There is also 
+need to aware people about the safety measures
+to be taken during any natural disaster.
+It also affects the economy of the country. 
+Recently Kerala had suffered a lot due to
+flood. Many campaigns were organised by government 
+and private institutions to donate for Kearla.
+We are donating to government
+and NGOs which took a lot of time to send relief
+material to needy ones.
+So I have decided
+to make an app through which  needy ones can directly
+contact with donater. It is 
+basically to be used by affected people 
+after the calamity is gone.
 
 
         FEATURES  OF  APP
@@ -41,8 +57,19 @@ the developer is providing this service with in the app.
 *SQLLITE DATABASE
 *PAY  UI Gateway(Third Party)
 
+
+
 •	NAVIGATION  DRAWER: It is used by developer to show the navigation bar,which mainly contains the contents of the app.
 CONCLUSIONS
 Basically this app is made for the purpose of providing basic amenities to the needy ones during the disaster time.
 They are our countrymen it is our responsibility to help them at the time of such natural calamity.
+
+#FLOOD(menu item in Navigation drawer)==>you can view how many peoples pull requested for help.in flood there is option 
+you can see the flood effected states.and click the states to see how many people request for help.and then after you can click the number provided by server in layout to see details and contact no and to call.
+
+#THE DISASTER IN INDIA UPDATED ON SERVER THEN AFTER IT WILL VISIBLE IN YOUR APP.
+#IF YOU WILL DO PULL REQUEST YOUR REQUEST WILL ADDED TO HELP SECTION FOR DISATER LIKE IN FLOOD SECTION 
+OF YOUR APP but it will only add to server if there is  flood in your states otherwise not. 
+
+
 
